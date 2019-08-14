@@ -23,7 +23,32 @@ npm install download-img
 
 ```js
 const downloadImg = require('download-img');
+
+// Download an image.
+downloadImg(url, dest);
+downloadImg('https://imgur.com/download/MyRQSXR/Cat%20Like%20A%20Boss!', './boss.gif');
 ```
+
+<br />
+
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/options.png)](./../../)
+
+## API
+
+### downloadImg(url, dest);
+
+#### ❯ url
+
+Type: `string`<br>
+
+Direct URL to download an image.
+
+#### ❯ dest
+
+Type: `string`<br>
+Default: `./image.jpg`
+
+Download an image to this given destination path with the name and extension at the end of it. E.g. `./image.gif` will download the a gif type image from the given `url` to the root directory of where this script was run.
 
 <br>
 
