@@ -1,6 +1,6 @@
-# download-online-img
+# get-online-img
 
-[![DOWNLOADS](https://img.shields.io/npm/dt/download-online-img?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/download-online-img) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro%20%E2%86%92-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=GitHubFOSS)
+[![DOWNLOADS](https://img.shields.io/npm/dt/get-online-img?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/get-online-img) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro%20%E2%86%92-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=GitHubFOSS)
 [![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6A788D&colorB=6A788D&style=flat)](https://twitter.com/mrahmadawais/)
 
 > 📥 Download an image by providing a URL and path in Node.js.
@@ -12,7 +12,7 @@
 ## Install
 
 ```sh
-npm install download-online-img
+npm install get-online-img
 ```
 
 <br>
@@ -22,7 +22,7 @@ npm install download-online-img
 ## Usage
 
 ```js
-const downloadImg = require('download-online-img');
+const downloadImg = require('get-online-img');
 
 // Download an image.
 downloadImg(url, dest);
