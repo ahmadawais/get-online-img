@@ -29,12 +29,32 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [1.1.0](https://github.com/ahmadawais/download-img/compare/1.0.0...1.1.0)
+
+![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
+
+> 📦 Demo iamge [`0e83052`](https://github.com/ahmadawais/download-img/commit/0e830521741026472e289b07d19be2835f9e0d0c) <br>
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 PKG Name [`b64b575`](https://github.com/ahmadawais/download-img/commit/b64b5755ebe0364e4af9f066eac9b987287a8c25) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: 1.0.0
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > 📦 First commit [`bdd722f`](https://github.com/ahmadawais/download-img/commit/bdd722f1368d2137909d67c4c84afd8c19c6dc7e) <br>
 > 📦 First version [`2196183`](https://github.com/ahmadawais/download-img/commit/2196183f17888511e8821ba6157c81810da123c5) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+>  📖 Changelog update [`7a0f1d6`](https://github.com/ahmadawais/download-img/commit/7a0f1d610fe021d2a0d4c3ffbd0b1f8a1110eb9b) <br>
 
 <br>
 

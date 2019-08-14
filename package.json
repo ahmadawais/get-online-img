@@ -1,6 +1,6 @@
 {
 	"name": "download-online-img",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "📥 Download an image by providing a URL and path in Node.js.",
 	"license": "MIT",
 	"repository": "ahmadawais/download-online-img",
