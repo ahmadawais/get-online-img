@@ -29,6 +29,18 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [1.2.0](https://github.com/ahmadawais/download-img/compare/1.1.0...1.2.0)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 PKG Name [`8a91527`](https://github.com/ahmadawais/download-img/commit/8a915271a6c3a0012891845e0b4ab16c05d0da70) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.1.0](https://github.com/ahmadawais/download-img/compare/1.0.0...1.1.0)
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
@@ -38,6 +50,10 @@ I have released a video course to help you become a better developer — <a href
 ![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 > 👌 PKG Name [`b64b575`](https://github.com/ahmadawais/download-img/commit/b64b5755ebe0364e4af9f066eac9b987287a8c25) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+>  📖 Changelog update [`b543eec`](https://github.com/ahmadawais/download-img/commit/b543eec5e1804c35e7d71696665cf94d7d57a3df) <br>
 
 <br>
 
