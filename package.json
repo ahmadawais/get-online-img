@@ -1,9 +1,9 @@
 {
-	"name": "download-img",
+	"name": "download-online-img",
 	"version": "1.0.0",
 	"description": "📥 Download an image by providing a URL and path in Node.js.",
 	"license": "MIT",
-	"repository": "ahmadawais/download-img",
+	"repository": "ahmadawais/download-online-img",
 	"author": {
 		"name": "Ahmad Awais",
 		"email": "me@AhmadAwais.com",
@@ -14,6 +14,7 @@
 		"index.js"
 	],
 	"keywords": [
+		"download-online-img",
 		"download-img",
 		"Ahmad Awais",
 		"ahmadawais"
