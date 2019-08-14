@@ -29,7 +29,7 @@ downloadImg(url, dest);
 downloadImg('https://imgur.com/download/MyRQSXR/Cat%20Like%20A%20Boss!', './boss.gif');
 ```
 
-![demo](https://on.ahmda.ws/57f10e/c)
+![demo](https://on.ahmda.ws/c28da1/c)
 
 <br />
 
