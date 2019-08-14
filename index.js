@@ -1,0 +1,3 @@
+/* DOWNLOAD IMG */
+
+module.exports = () => {};
