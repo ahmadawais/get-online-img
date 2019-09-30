@@ -6,7 +6,7 @@
  * @param String url URL to image.
  * @param String dest Destination to download the image with image name and extension.
  */
-module.exports = (url, dest = './image.jpg') => {
+module.exports = (url, dest = './image.jpg', cli = true) => {
 	const ora = require('ora');
 	const handleError = require('./handleError.js');
 	const clearConsole = require('clear-any-console');
@@ -41,28 +41,39 @@ module.exports = (url, dest = './image.jpg') => {
 
 	console.log();
 	(async () => {
-		clearConsole();
+		if (cli) {
+			clearConsole();
 
-		// Welcome!
-		welcome(`❯ Downloading Image`, '', {
-			bgColor: `#FADC00`,
-			color: `#000000`
-		});
+			// Welcome!
+			welcome(`❯ Downloading Image`, '', {
+				bgColor: `#FADC00`,
+				color: `#000000`
+			});
 
-		// Init the spinner.
-		const spinner = ora({ text: '' });
-		spinner.start(`${yellow(`DOWNLOADING`)} the image`);
+			// Init the spinner.
+			const spinner = ora({ text: '' });
+			spinner.start(`${yellow(`DOWNLOADING`)} the image`);
 
-		if (!url) {
-			spinner.warn(`${yellow(` URL`)} cannot be empty. \n${dim(`You forgot the first parameter.`)}\n`);
-			process.exit(0);
+			if (!url) {
+				spinner.warn(`${yellow(` URL`)} cannot be empty. \n${dim(`You forgot the first parameter.`)}\n`);
+				process.exit(0);
+			}
+
+			const [err, down] = await to(downloadImage(url));
+			handleError('DOWNLOADING', 'the demo image failed', err);
+
+			// Spinner Step.
+			spinner.succeed(`${green(`DOWNLOADED`)} the image in directory: ${dim(UPLOAD_DIR)}`);
+			spinner.succeed(`ALL DONE! \n`);
+		} else {
+			if (!url) {
+				const spinner = ora({ text: '' });
+				spinner.warn(`${yellow(` URL`)} cannot be empty. \n${dim(`You forgot the first parameter.`)}\n`);
+				process.exit(0);
+			}
+
+			const [err, down] = await to(downloadImage(url));
+			handleError('DOWNLOADING', 'the demo image failed', err);
 		}
-
-		const [err, down] = await to(downloadImage(url));
-		handleError('DOWNLOADING', 'the demo image failed', err);
-
-		// Spinner Step.
-		spinner.succeed(`${green(`DOWNLOADED`)} the image in directory: ${dim(UPLOAD_DIR)}`);
-		spinner.succeed(`ALL DONE! \n`);
 	})();
 };
