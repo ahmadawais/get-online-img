@@ -11,7 +11,8 @@
 	},
 	"main": "index.js",
 	"files": [
-		"index.js"
+		"index.js",
+		"handleError.js"
 	],
 	"keywords": [
 		"get-online-img",
