@@ -22,7 +22,7 @@ module.exports = (url, dest = './image.jpg') => {
 	const UPLOAD_DIR = dest;
 
 	async function downloadImage(url) {
-		const downloadPath = path.resolve(__dirname, UPLOAD_DIR);
+		const downloadPath = path.resolve(UPLOAD_DIR);
 		const writer = fs.createWriteStream(downloadPath);
 
 		const response = await axios({
