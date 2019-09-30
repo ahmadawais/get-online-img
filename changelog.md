@@ -29,11 +29,27 @@ I have released a video course to help you become a better developer — <a href
 
 <br>
 
+### RELEASE: [2.0.0](https://github.com/ahmadawais/download-img/compare/1.4.0...2.0.0)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 CLI or Not [`5adc4d8`](https://github.com/ahmadawais/download-img/commit/5adc4d859e657ae3f2bb2c1d9e034f491d8a694f) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.4.0](https://github.com/ahmadawais/download-img/compare/1.3.0...1.4.0)
 
 ![🐛 FIX:](https://img.shields.io/badge/-FIX-gray.svg?colorB=ff6347)
 
 > 🐛 Image dest path [`681046b`](https://github.com/ahmadawais/download-img/commit/681046bce25154212b0de24feb664b605d94dbbf) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+>  📖 Changelog update [`882bfa2`](https://github.com/ahmadawais/download-img/commit/882bfa29f1ce762a1b125411cd9765ac64fcb0d5) <br>
 
 <br>
 
